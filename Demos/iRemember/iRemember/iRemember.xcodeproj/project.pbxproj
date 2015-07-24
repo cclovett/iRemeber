@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A964321B61E0D3007245E7 /* iRememberCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A9642E1B61E0C8007245E7 /* iRememberCommon.framework */; };
+		42A964331B61E0D3007245E7 /* iRememberCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42A9642E1B61E0C8007245E7 /* iRememberCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		680F37571A1CDD8300DC80B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 680F37561A1CDD8300DC80B8 /* main.m */; };
+		680F375A1A1CDD8300DC80B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 680F37591A1CDD8300DC80B8 /* AppDelegate.m */; };
+		680F37631A1CDD8300DC80B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 680F37611A1CDD8300DC80B8 /* Main.storyboard */; };
+		680F37651A1CDD8300DC80B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 680F37641A1CDD8300DC80B8 /* Images.xcassets */; };
+		680F37741A1CDD8300DC80B8 /* iRememberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 680F37731A1CDD8300DC80B8 /* iRememberTests.m */; };
+		684D878C1B3526CD00BE28B1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684D878B1B3526CD00BE28B1 /* iAd.framework */; };
+		684D87921B35329600BE28B1 /* VRememberUpDownRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D87911B35329600BE28B1 /* VRememberUpDownRefreshView.m */; };
+		684D87961B35339600BE28B1 /* VRememberTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D87951B35339600BE28B1 /* VRememberTableView.m */; };
+		684D879D1B353A8D00BE28B1 /* CSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D879C1B353A8D00BE28B1 /* CSettingViewController.m */; };
+		684D87A11B3819E900BE28B1 /* CMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 684D87A01B3819E900BE28B1 /* CMainViewController.m */; };
+		685C6EB31A46D72C0093D316 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 685C6EB21A46D72C0093D316 /* CoreDataManager.m */; };
+		685C6EBC1A46E2790093D316 /* iRemember.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 685C6EBA1A46E2790093D316 /* iRemember.xcdatamodeld */; };
+		68C4990E1A2F4A5300AEF3AC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C4990C1A2F4A5300AEF3AC /* MasterViewController.m */; };
+		68C499151A2F4CBA00AEF3AC /* LogoCcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C499141A2F4CBA00AEF3AC /* LogoCcView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680F376E1A1CDD8300DC80B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680F37491A1CDD8300DC80B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680F37501A1CDD8300DC80B8;
+			remoteInfo = iRemember;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		42A964341B61E0D4007245E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				42A964331B61E0D3007245E7 /* iRememberCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42A9642E1B61E0C8007245E7 /* iRememberCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = iRememberCommon.framework; path = "/Users/cc/Library/Developer/Xcode/DerivedData/iRemember-dcqowjrpjnrwfbadnxomuubpfvdl/Build/Products/Debug-iphoneos/iRememberCommon.framework"; sourceTree = "<absolute>"; };
+		680F37511A1CDD8300DC80B8 /* iRemember.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRemember.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F37551A1CDD8300DC80B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680F37561A1CDD8300DC80B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		680F37581A1CDD8300DC80B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		680F37591A1CDD8300DC80B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		680F37621A1CDD8300DC80B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		680F37641A1CDD8300DC80B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		680F376D1A1CDD8300DC80B8 /* iRememberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRememberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680F37721A1CDD8300DC80B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		680F37731A1CDD8300DC80B8 /* iRememberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iRememberTests.m; sourceTree = "<group>"; };
+		684D878B1B3526CD00BE28B1 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		684D87901B35329600BE28B1 /* VRememberUpDownRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRememberUpDownRefreshView.h; sourceTree = "<group>"; };
+		684D87911B35329600BE28B1 /* VRememberUpDownRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRememberUpDownRefreshView.m; sourceTree = "<group>"; };
+		684D87941B35339600BE28B1 /* VRememberTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRememberTableView.h; sourceTree = "<group>"; };
+		684D87951B35339600BE28B1 /* VRememberTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRememberTableView.m; sourceTree = "<group>"; };
+		684D87981B3533FE00BE28B1 /* CMGlobel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMGlobel.h; sourceTree = "<group>"; };
+		684D87991B3533FE00BE28B1 /* CMUIGlobel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMUIGlobel.h; sourceTree = "<group>"; };
+		684D879B1B353A8D00BE28B1 /* CSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSettingViewController.h; sourceTree = "<group>"; };
+		684D879C1B353A8D00BE28B1 /* CSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSettingViewController.m; sourceTree = "<group>"; };
+		684D879F1B3819E900BE28B1 /* CMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMainViewController.h; sourceTree = "<group>"; };
+		684D87A01B3819E900BE28B1 /* CMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMainViewController.m; sourceTree = "<group>"; };
+		685C6EB11A46D72C0093D316 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		685C6EB21A46D72C0093D316 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		685C6EBB1A46E2790093D316 /* iRemember.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRemember.xcdatamodel; sourceTree = "<group>"; };
+		68C4990B1A2F4A5300AEF3AC /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		68C4990C1A2F4A5300AEF3AC /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		68C499131A2F4CBA00AEF3AC /* LogoCcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoCcView.h; sourceTree = "<group>"; };
+		68C499141A2F4CBA00AEF3AC /* LogoCcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoCcView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680F374E1A1CDD8300DC80B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A964321B61E0D3007245E7 /* iRememberCommon.framework in Frameworks */,
+				684D878C1B3526CD00BE28B1 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F376A1A1CDD8300DC80B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680F37481A1CDD8300DC80B8 = {
+			isa = PBXGroup;
+			children = (
+				680F37531A1CDD8300DC80B8 /* iRemember */,
+				680F37701A1CDD8300DC80B8 /* iRememberTests */,
+				685C6EAE1A46D6B90093D316 /* Frameworks */,
+				680F37521A1CDD8300DC80B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680F37521A1CDD8300DC80B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680F37511A1CDD8300DC80B8 /* iRemember.app */,
+				680F376D1A1CDD8300DC80B8 /* iRememberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680F37531A1CDD8300DC80B8 /* iRemember */ = {
+			isa = PBXGroup;
+			children = (
+				680F37581A1CDD8300DC80B8 /* AppDelegate.h */,
+				680F37591A1CDD8300DC80B8 /* AppDelegate.m */,
+				680F37611A1CDD8300DC80B8 /* Main.storyboard */,
+				680F37641A1CDD8300DC80B8 /* Images.xcassets */,
+				68C499071A2F4A5300AEF3AC /* Classes */,
+				680F37541A1CDD8300DC80B8 /* Supporting Files */,
+			);
+			path = iRemember;
+			sourceTree = "<group>";
+		};
+		680F37541A1CDD8300DC80B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				680F37551A1CDD8300DC80B8 /* Info.plist */,
+				680F37561A1CDD8300DC80B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		680F37701A1CDD8300DC80B8 /* iRememberTests */ = {
+			isa = PBXGroup;
+			children = (
+				680F37731A1CDD8300DC80B8 /* iRememberTests.m */,
+				680F37711A1CDD8300DC80B8 /* Supporting Files */,
+			);
+			path = iRememberTests;
+			sourceTree = "<group>";
+		};
+		680F37711A1CDD8300DC80B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				680F37721A1CDD8300DC80B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684D878F1B35329600BE28B1 /* RememberUpDownRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				684D87901B35329600BE28B1 /* VRememberUpDownRefreshView.h */,
+				684D87911B35329600BE28B1 /* VRememberUpDownRefreshView.m */,
+			);
+			path = RememberUpDownRefreshView;
+			sourceTree = "<group>";
+		};
+		684D87931B35339600BE28B1 /* RememberTableView */ = {
+			isa = PBXGroup;
+			children = (
+				684D87941B35339600BE28B1 /* VRememberTableView.h */,
+				684D87951B35339600BE28B1 /* VRememberTableView.m */,
+			);
+			path = RememberTableView;
+			sourceTree = "<group>";
+		};
+		684D87971B3533CB00BE28B1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				684D87981B3533FE00BE28B1 /* CMGlobel.h */,
+				684D87991B3533FE00BE28B1 /* CMUIGlobel.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		684D879A1B353A8D00BE28B1 /* SettingController */ = {
+			isa = PBXGroup;
+			children = (
+				684D879B1B353A8D00BE28B1 /* CSettingViewController.h */,
+				684D879C1B353A8D00BE28B1 /* CSettingViewController.m */,
+			);
+			path = SettingController;
+			sourceTree = "<group>";
+		};
+		684D879E1B3819B200BE28B1 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				684D879F1B3819E900BE28B1 /* CMainViewController.h */,
+				684D87A01B3819E900BE28B1 /* CMainViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		685C6E6D1A46D5810093D316 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				685C6E6E1A46D5960093D316 /* CoreDataManager */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		685C6E6E1A46D5960093D316 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				685C6EB11A46D72C0093D316 /* CoreDataManager.h */,
+				685C6EB21A46D72C0093D316 /* CoreDataManager.m */,
+				685C6EB91A46E2670093D316 /* CoreDataFiles */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		685C6EAE1A46D6B90093D316 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42A9642E1B61E0C8007245E7 /* iRememberCommon.framework */,
+				684D878B1B3526CD00BE28B1 /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		685C6EB91A46E2670093D316 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				685C6EBA1A46E2790093D316 /* iRemember.xcdatamodeld */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		68C499071A2F4A5300AEF3AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				684D87971B3533CB00BE28B1 /* Common */,
+				685C6E6D1A46D5810093D316 /* Models */,
+				68C4990F1A2F4A9000AEF3AC /* Views */,
+				68C499081A2F4A5300AEF3AC /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		68C499081A2F4A5300AEF3AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				68C4990B1A2F4A5300AEF3AC /* MasterViewController.h */,
+				68C4990C1A2F4A5300AEF3AC /* MasterViewController.m */,
+				684D879E1B3819B200BE28B1 /* MainController */,
+				684D879A1B353A8D00BE28B1 /* SettingController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		68C4990F1A2F4A9000AEF3AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68C499131A2F4CBA00AEF3AC /* LogoCcView.h */,
+				68C499141A2F4CBA00AEF3AC /* LogoCcView.m */,
+				684D87931B35339600BE28B1 /* RememberTableView */,
+				684D878F1B35329600BE28B1 /* RememberUpDownRefreshView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680F37501A1CDD8300DC80B8 /* iRemember */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680F37771A1CDD8300DC80B8 /* Build configuration list for PBXNativeTarget "iRemember" */;
+			buildPhases = (
+				680F374D1A1CDD8300DC80B8 /* Sources */,
+				680F374E1A1CDD8300DC80B8 /* Frameworks */,
+				680F374F1A1CDD8300DC80B8 /* Resources */,
+				42A964341B61E0D4007245E7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRemember;
+			productName = iRemember;
+			productReference = 680F37511A1CDD8300DC80B8 /* iRemember.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680F376C1A1CDD8300DC80B8 /* iRememberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680F377A1A1CDD8300DC80B8 /* Build configuration list for PBXNativeTarget "iRememberTests" */;
+			buildPhases = (
+				680F37691A1CDD8300DC80B8 /* Sources */,
+				680F376A1A1CDD8300DC80B8 /* Frameworks */,
+				680F376B1A1CDD8300DC80B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680F376F1A1CDD8300DC80B8 /* PBXTargetDependency */,
+			);
+			name = iRememberTests;
+			productName = iRememberTests;
+			productReference = 680F376D1A1CDD8300DC80B8 /* iRememberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680F37491A1CDD8300DC80B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CenterC;
+				TargetAttributes = {
+					680F37501A1CDD8300DC80B8 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = J5358B5ZV5;
+					};
+					680F376C1A1CDD8300DC80B8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 680F37501A1CDD8300DC80B8;
+					};
+				};
+			};
+			buildConfigurationList = 680F374C1A1CDD8300DC80B8 /* Build configuration list for PBXProject "iRemember" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680F37481A1CDD8300DC80B8;
+			productRefGroup = 680F37521A1CDD8300DC80B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680F37501A1CDD8300DC80B8 /* iRemember */,
+				680F376C1A1CDD8300DC80B8 /* iRememberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680F374F1A1CDD8300DC80B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F37631A1CDD8300DC80B8 /* Main.storyboard in Resources */,
+				680F37651A1CDD8300DC80B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F376B1A1CDD8300DC80B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680F374D1A1CDD8300DC80B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F375A1A1CDD8300DC80B8 /* AppDelegate.m in Sources */,
+				684D87A11B3819E900BE28B1 /* CMainViewController.m in Sources */,
+				680F37571A1CDD8300DC80B8 /* main.m in Sources */,
+				684D879D1B353A8D00BE28B1 /* CSettingViewController.m in Sources */,
+				685C6EBC1A46E2790093D316 /* iRemember.xcdatamodeld in Sources */,
+				684D87921B35329600BE28B1 /* VRememberUpDownRefreshView.m in Sources */,
+				685C6EB31A46D72C0093D316 /* CoreDataManager.m in Sources */,
+				68C4990E1A2F4A5300AEF3AC /* MasterViewController.m in Sources */,
+				68C499151A2F4CBA00AEF3AC /* LogoCcView.m in Sources */,
+				684D87961B35339600BE28B1 /* VRememberTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680F37691A1CDD8300DC80B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680F37741A1CDD8300DC80B8 /* iRememberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680F376F1A1CDD8300DC80B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680F37501A1CDD8300DC80B8 /* iRemember */;
+			targetProxy = 680F376E1A1CDD8300DC80B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		680F37611A1CDD8300DC80B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				680F37621A1CDD8300DC80B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		680F37751A1CDD8300DC80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		680F37761A1CDD8300DC80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680F37781A1CDD8300DC80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Users/cc/Library/Developer/Xcode/DerivedData/iRemember-azqnaqcdgfyzwpbbzkdywhzucvol/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/iRemember-dcqowjrpjnrwfbadnxomuubpfvdl/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = iRemember/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iRemember;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		680F37791A1CDD8300DC80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Volumes/Users/cc/Library/Developer/Xcode/DerivedData/iRemember-azqnaqcdgfyzwpbbzkdywhzucvol/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/iRemember-dcqowjrpjnrwfbadnxomuubpfvdl/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = iRemember/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = iRemember;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		680F377B1A1CDD8300DC80B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iRememberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = iRememberTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRemember.app/iRemember";
+			};
+			name = Debug;
+		};
+		680F377C1A1CDD8300DC80B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iRememberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = iRememberTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iRemember.app/iRemember";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680F374C1A1CDD8300DC80B8 /* Build configuration list for PBXProject "iRemember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F37751A1CDD8300DC80B8 /* Debug */,
+				680F37761A1CDD8300DC80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680F37771A1CDD8300DC80B8 /* Build configuration list for PBXNativeTarget "iRemember" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F37781A1CDD8300DC80B8 /* Debug */,
+				680F37791A1CDD8300DC80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680F377A1A1CDD8300DC80B8 /* Build configuration list for PBXNativeTarget "iRememberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680F377B1A1CDD8300DC80B8 /* Debug */,
+				680F377C1A1CDD8300DC80B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		685C6EBA1A46E2790093D316 /* iRemember.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				685C6EBB1A46E2790093D316 /* iRemember.xcdatamodel */,
+			);
+			currentVersion = 685C6EBB1A46E2790093D316 /* iRemember.xcdatamodel */;
+			path = iRemember.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 680F37491A1CDD8300DC80B8 /* Project object */;
+}
