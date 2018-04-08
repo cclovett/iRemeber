@@ -1,0 +1,33 @@
+{
+  "name": "CLOCommon",
+  "version": "0.0.1",
+  "summary": "A short description of CLOCommon.",
+  "description": "Cc",
+  "homepage": "https://github.com/ccloveobjc/CLOCommon",
+  "license": {
+    "type": "Copyright",
+    "text": "        Copyright 2010-2015 CenterC Inc.\n"
+  },
+  "authors": {
+    "TT": "654974034@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ccloveobjc/CLOCommon.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "default_subspecs": "Core",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "frameworks": "UIKit",
+      "source_files": "Classes/Core/**/*.{h,m,mm,hpp,cpp,c}"
+    }
+  ]
+}
