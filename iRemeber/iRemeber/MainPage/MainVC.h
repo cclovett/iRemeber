@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class TabBarView;
+@class TabBarView, TopBarView;
 
 @interface MainVC : UIViewController
 
 @property (strong, nonatomic, readonly) TabBarView *mTabBarView;
+@property (strong, nonatomic, readonly) TopBarView *mTopBarView;
 
 @end

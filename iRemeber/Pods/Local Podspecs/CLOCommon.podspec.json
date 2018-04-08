@@ -17,7 +17,6 @@
   },
   "requires_arc": true,
   "default_subspecs": "Core",
-  "source_files": "Classes/CLOCommon.h",
   "platforms": {
     "osx": null,
     "ios": null,
@@ -29,6 +28,16 @@
       "name": "Core",
       "frameworks": "UIKit",
       "source_files": "Classes/Core/**/*.{h,m,mm,hpp,cpp,c}"
+    },
+    {
+      "name": "UI",
+      "frameworks": "UIKit",
+      "dependencies": {
+        "CLOCommon/Core": [
+
+        ]
+      },
+      "source_files": "Classes/UI/**/*.{h,m,mm,hpp,cpp,c}"
     }
   ]
 }

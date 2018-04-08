@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424B0E62207A0042002784F5 /* MainVC+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B0E61207A0042002784F5 /* MainVC+UIView.m */; };
 		42A94B872079B2770063FAFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A94B862079B2770063FAFE /* AppDelegate.m */; };
 		42A94B8D2079B2770063FAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A94B8B2079B2770063FAFE /* Main.storyboard */; };
 		42A94B8F2079B2770063FAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A94B8E2079B2770063FAFE /* Assets.xcassets */; };
@@ -16,11 +17,15 @@
 		42A94BA52079E7A70063FAFE /* DBMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A94BA42079E7A70063FAFE /* DBMgr.m */; };
 		42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F52079EB1B00BC3641 /* DBTask.mm */; };
 		42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F92079F42C00BC3641 /* TabBarView.m */; };
+		42F9077F207A0617003A8F24 /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9077E207A0617003A8F24 /* TopBarView.m */; };
 		D8DDC9DF1802656CF4F51EA4 /* libPods-iRemeber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0655B99B999B453D57BF82 /* libPods-iRemeber.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		116764AFE2C02DD5EDEA1143 /* Pods-iRemeber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRemeber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRemeber/Pods-iRemeber.debug.xcconfig"; sourceTree = "<group>"; };
+		424B0E60207A0042002784F5 /* MainVC+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MainVC+UIView.h"; sourceTree = "<group>"; };
+		424B0E61207A0042002784F5 /* MainVC+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MainVC+UIView.m"; sourceTree = "<group>"; };
+		424B0E63207A0468002784F5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		42A94B822079B2770063FAFE /* iRemeber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRemeber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A94B852079B2770063FAFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42A94B862079B2770063FAFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,10 +38,13 @@
 		42A94B9F2079B8C50063FAFE /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 		42A94BA32079E7A70063FAFE /* DBMgr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBMgr.h; sourceTree = "<group>"; };
 		42A94BA42079E7A70063FAFE /* DBMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMgr.m; sourceTree = "<group>"; };
+		42D5D9A4207A3715007E57E3 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
 		42E799F42079EB1B00BC3641 /* DBTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBTask.h; sourceTree = "<group>"; };
 		42E799F52079EB1B00BC3641 /* DBTask.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DBTask.mm; sourceTree = "<group>"; };
 		42E799F82079F42C00BC3641 /* TabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarView.h; sourceTree = "<group>"; };
 		42E799F92079F42C00BC3641 /* TabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarView.m; sourceTree = "<group>"; };
+		42F9077D207A0617003A8F24 /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
+		42F9077E207A0617003A8F24 /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
 		BD0655B99B999B453D57BF82 /* libPods-iRemeber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iRemeber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12C817E31D46C951AFD0BD1 /* Pods-iRemeber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRemeber.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRemeber/Pods-iRemeber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +85,7 @@
 				42A94B852079B2770063FAFE /* AppDelegate.h */,
 				42A94B862079B2770063FAFE /* AppDelegate.m */,
 				42A94B8E2079B2770063FAFE /* Assets.xcassets */,
+				42D5D9A4207A3715007E57E3 /* Global.h */,
 				42A94B932079B2770063FAFE /* Info.plist */,
 				42A94B902079B2770063FAFE /* LaunchScreen.storyboard */,
 				42A94B942079B2770063FAFE /* main.m */,
@@ -92,6 +101,8 @@
 			children = (
 				42A94B9E2079B8C50063FAFE /* MainVC.h */,
 				42A94B9F2079B8C50063FAFE /* MainVC.m */,
+				424B0E60207A0042002784F5 /* MainVC+UIView.h */,
+				424B0E61207A0042002784F5 /* MainVC+UIView.m */,
 			);
 			path = MainPage;
 			sourceTree = "<group>";
@@ -101,6 +112,7 @@
 			children = (
 				42A94BA22079E5B60063FAFE /* DBMgr */,
 				42E799F72079F40D00BC3641 /* TabBarView */,
+				42F9077C207A0617003A8F24 /* TopBarView */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -133,6 +145,15 @@
 			path = TabBarView;
 			sourceTree = "<group>";
 		};
+		42F9077C207A0617003A8F24 /* TopBarView */ = {
+			isa = PBXGroup;
+			children = (
+				42F9077D207A0617003A8F24 /* TopBarView.h */,
+				42F9077E207A0617003A8F24 /* TopBarView.m */,
+			);
+			path = TopBarView;
+			sourceTree = "<group>";
+		};
 		7B7B2806C316DC04F3590F7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +166,7 @@
 		E9C78EC5FDD0854C0B0D71E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				424B0E63207A0468002784F5 /* libc++.tbd */,
 				BD0655B99B999B453D57BF82 /* libPods-iRemeber.a */,
 			);
 			name = Frameworks;
@@ -273,10 +295,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */,
+				424B0E62207A0042002784F5 /* MainVC+UIView.m in Sources */,
 				42A94BA02079B8C50063FAFE /* MainVC.m in Sources */,
 				42A94B952079B2770063FAFE /* main.m in Sources */,
 				42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */,
 				42A94BA52079E7A70063FAFE /* DBMgr.m in Sources */,
+				42F9077F207A0617003A8F24 /* TopBarView.m in Sources */,
 				42A94B872079B2770063FAFE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
