@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class TabBarView;
+
 @interface MainVC : UIViewController
 
+@property (strong, nonatomic, readonly) TabBarView *mTabBarView;
 
 @end

@@ -15,6 +15,7 @@
 		42A94BA02079B8C50063FAFE /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A94B9F2079B8C50063FAFE /* MainVC.m */; };
 		42A94BA52079E7A70063FAFE /* DBMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A94BA42079E7A70063FAFE /* DBMgr.m */; };
 		42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F52079EB1B00BC3641 /* DBTask.mm */; };
+		42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F92079F42C00BC3641 /* TabBarView.m */; };
 		D8DDC9DF1802656CF4F51EA4 /* libPods-iRemeber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD0655B99B999B453D57BF82 /* libPods-iRemeber.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		42A94BA42079E7A70063FAFE /* DBMgr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBMgr.m; sourceTree = "<group>"; };
 		42E799F42079EB1B00BC3641 /* DBTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBTask.h; sourceTree = "<group>"; };
 		42E799F52079EB1B00BC3641 /* DBTask.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DBTask.mm; sourceTree = "<group>"; };
+		42E799F82079F42C00BC3641 /* TabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarView.h; sourceTree = "<group>"; };
+		42E799F92079F42C00BC3641 /* TabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarView.m; sourceTree = "<group>"; };
 		BD0655B99B999B453D57BF82 /* libPods-iRemeber.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iRemeber.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12C817E31D46C951AFD0BD1 /* Pods-iRemeber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRemeber.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRemeber/Pods-iRemeber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				42A94BA22079E5B60063FAFE /* DBMgr */,
+				42E799F72079F40D00BC3641 /* TabBarView */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -118,6 +122,15 @@
 				42E799F52079EB1B00BC3641 /* DBTask.mm */,
 			);
 			path = ORMs;
+			sourceTree = "<group>";
+		};
+		42E799F72079F40D00BC3641 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				42E799F82079F42C00BC3641 /* TabBarView.h */,
+				42E799F92079F42C00BC3641 /* TabBarView.m */,
+			);
+			path = TabBarView;
 			sourceTree = "<group>";
 		};
 		7B7B2806C316DC04F3590F7A /* Pods */ = {
@@ -259,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */,
 				42A94BA02079B8C50063FAFE /* MainVC.m in Sources */,
 				42A94B952079B2770063FAFE /* main.m in Sources */,
 				42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */,

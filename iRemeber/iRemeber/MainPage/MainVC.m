@@ -7,8 +7,11 @@
 //
 
 #import "MainVC.h"
+#import "TabBarView.h"
 
 @interface MainVC ()
+
+@property (strong, nonatomic) TabBarView *mTabBarView;
 
 @end
 

@@ -11,22 +11,22 @@
 
 @interface DBTask ()
 
-WCDB_PROPERTY(db_uuid)
-WCDB_PROPERTY(db_createTime)
-WCDB_PROPERTY(db_modifiedTime)
+WCDB_PROPERTY(mUUID)
+WCDB_PROPERTY(mCreateTime)
+WCDB_PROPERTY(mModifiedTime)
 
 @end
 @implementation DBTask
 
 WCDB_IMPLEMENTATION(DBTask)
 
-WCDB_SYNTHESIZE(DBTask, db_uuid)
+WCDB_SYNTHESIZE(DBTask, mUUID)
 
-WCDB_SYNTHESIZE(DBTask, db_createTime)
-WCDB_SYNTHESIZE(DBTask, db_modifiedTime)
+WCDB_SYNTHESIZE(DBTask, mCreateTime)
+WCDB_SYNTHESIZE(DBTask, mModifiedTime)
 
-WCDB_PRIMARY(DBTask, db_uuid)
+WCDB_PRIMARY(DBTask, mUUID)
 
-WCDB_INDEX(DBTask, "_index", db_createTime)
+WCDB_INDEX(DBTask, "_index", mCreateTime)
 
 @end

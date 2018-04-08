@@ -175,6 +175,7 @@
 		5D069BCD63873B69F6F81D6D20C9597F /* WCTTokenizer+WCDB.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA621F715983B50A86A091A466B9B81F /* WCTTokenizer+WCDB.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5D202287F20CEC53A98DF6E28585545A /* WCTDatabase+Compatible.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5C03B50925E16E254C2807FC3E2FC2 /* WCTDatabase+Compatible.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D5CFEF522F31AE4852A22540BBE2EAA /* rtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE870A1FB67FEA67C667CD9961F60F1 /* rtree.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D986F01668BAEC58880F967460C165E /* CLOLogMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A0B5DB4AD5AF5AB92048118F8C29F2 /* CLOLogMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DEE72FE19C0B038F8BA144E4E180C2E /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8CEDB71345520F53EC604C4129E41 /* path.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5DF138141E465649D8E5BB3A757F0182 /* statement_detach.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 34CBCC0A32271C55EFA438FD1EF4A142 /* statement_detach.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E47824CC11E555A5D915CE3648C2D38 /* fts3_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = ADE21139C217D477D4687B987A24FDD7 /* fts3_aux.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -186,7 +187,6 @@
 		6393510E1635ECCFA77E6041C03E5ACA /* mem0.c in Sources */ = {isa = PBXBuildFile; fileRef = DB91F69B839F9F465358DB3815E67F34 /* mem0.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		63ACF65D438BE6B69F96EB8CB6405995 /* WCTTransaction+Table.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36635A636A3E73E0BAF66DCD85958690 /* WCTTransaction+Table.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		63BE1102B061EBFBF2DBA44AF47DCD8E /* mem5.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE1A7BEC50F00EDB1B7A3BBF347645 /* mem5.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		646225369AA4AB6FE42C5BDEAC815FE3 /* CLOLogMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A8DE2553EECD35CA8786D96FA59255 /* CLOLogMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64D64E0027BE49B46766915C90A0E4BB /* order_term.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 91381CAD1F49F7422422F4287986C59D /* order_term.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		64FBD023950FA45A387A82208F36B77F /* WCTRuntimeObjCAccessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13C18C5E20A3B8DB9FB09E6104688C68 /* WCTRuntimeObjCAccessor.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		65C53A06D7A0893D1E3A277D4EE9F1FC /* notify.c in Sources */ = {isa = PBXBuildFile; fileRef = 79BD1D679FA9960B0E02E19EEF5899C6 /* notify.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -200,7 +200,6 @@
 		6A4A0488E29269268DDF6E7CF461D1E0 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = DB211562C90C1BC8A96CC87C635C4554 /* hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6B1E2906A7573B45FAA291E813947DD3 /* WCTDatabase+RepairKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB933A87E9F6C57183B344A1537A7A95 /* WCTDatabase+RepairKit.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6C509D5C8CF4204CEE2FAE252AD244F8 /* WCTDatabase+Compatible.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF5EE26C725F7E43B852FE3C13441B08 /* WCTDatabase+Compatible.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6CBFD0FA8C7458C5FCE8DF578AA322C0 /* CLOLogMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B174A0FE7203CCC4EBA5AFB9DB79EAD /* CLOLogMgr.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6D02FE2CC8107020CDD615D7B9E5623F /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBCFC73993E64A704423F1398F43847 /* mutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6DA69BF71C3CB4AB0C8DA7AAC04F39EB /* WCTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 64296AA93692CEAB9B6AC1FC0C023AD2 /* WCTError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FF95279764BAE534411871554AD4F8C /* os_unix.c in Sources */ = {isa = PBXBuildFile; fileRef = D60EE40F5D3637749F36475C9B944D5D /* os_unix.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -219,7 +218,6 @@
 		78B9BC6D41C873A0ECCAE1233D066AAA /* WCTSelectBase+NoARC.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC56ECFCAC7EF3CF046E2A8DCE2490C7 /* WCTSelectBase+NoARC.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7936F01E417CA7B4CA1A68CF993672E9 /* WCTIndexMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4B4D6CE7B2FBF1D15E06A6683F5AEF /* WCTIndexMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		793ADAC11852E554661EF0DE6AF96E61 /* WCTTransaction.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9617A74AEAE4AD3AF21CD71B3744D1EC /* WCTTransaction.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		79D479B6DBD0C396B15A720EBF0DCAE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A06528E762C459828CDD17FF1D46A08 /* Foundation.framework */; };
 		7AD7427E8364A8E991A9B5FD9D381779 /* WCTCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AF50FBA0FB4058F1BCF6E9E8E489713C /* WCTCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AF5D7247DA9F17FD0328E579BE4F1DB /* statement_update.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 992150E728E0C78BD08FC7B24186FB46 /* statement_update.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C596F73082095296329238E4730244A /* statement_vacuum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43166C22714EE60D753A457726E310D6 /* statement_vacuum.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -245,6 +243,7 @@
 		8AB5BDB98C11633EFC18058C35DE08B6 /* fts3_unicode.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E419D2E7D3EB617F3F4EADAC2860B80 /* fts3_unicode.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8B64B9131DA4F60EC8E8C2E74FEB3AAA /* sqliteicu.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FD6DA27C6DC05A3CBA758D6DE7CE8B /* sqliteicu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8CA941AE475808E39AF59E27853D62F0 /* statement_drop_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6E01AE4C4D4D5E222EA610E3669791A /* statement_drop_table.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8D649CA10B2386F2CB03450459D24C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A06528E762C459828CDD17FF1D46A08 /* Foundation.framework */; };
 		8DD091552B52FB904709DA2ECD8F87FF /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 7791DF3C175C49C213F6AC86C825A2C5 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8ED237DE04FC39F1FFD558CB679EA142 /* spin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39257C68C11FB6B1078ED7A0D64DC36A /* spin.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8EFBB8B06EEAEF7615A04EE734942614 /* WCTRuntimeBaseAccessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E1BDE669A416771C8634171FA40128 /* WCTRuntimeBaseAccessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -280,7 +279,7 @@
 		9CB6A25699A3B4216D3B272351A0D2A2 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D2E8DDB2AEE39C85E9FFBBBC653B238 /* random.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9CB6CCFC997B82F7C28BA11E3D2AD7DD /* fts5.c in Sources */ = {isa = PBXBuildFile; fileRef = DBA8DE717F0A9D9C89CE657CF92C8245 /* fts5.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9D78CB212CAB79589060BAB245044088 /* sqliterk_crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = F6403D8D3E8BD1E2C1457E20268AA447 /* sqliterk_crypto.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E46087515969420A5BF52E1B8393CB5 /* CLOCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148134008BD26472D49FE3D0F43074FB /* CLOCommon-dummy.m */; };
+		A04E0D4E380E37C53339B820A0D7553D /* CLOCommonCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D43880F614CB34140452233C2B3DF3 /* CLOCommonCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B770D6EE08B297C00804D8B1983ACD /* WCTTable+ChainCall.mm in Sources */ = {isa = PBXBuildFile; fileRef = 651008ACDC11A31282448920B577B6B2 /* WCTTable+ChainCall.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A1171BC85810C960E4D487AB549022CC /* sqliterk_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 41D7C3FDDDD9C4CAC30960B86D42AAB2 /* sqliterk_os.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A1F23823B88F7EE8A9CA2B13E19F964A /* WCTTransaction+Statistics.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1A7C1EE20CDC08980B2B49E11042DDA /* WCTTransaction+Statistics.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -290,6 +289,7 @@
 		A45AA27940C93FEB0D34A4BD8B582A60 /* pcache.c in Sources */ = {isa = PBXBuildFile; fileRef = E481459FB1F8D00356F2B9EA414101F0 /* pcache.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5405B927C218CBBE3BBFA57B3F71CD8 /* sqlite3userauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C75FA1CF9677968C787D8A700B2D951 /* sqlite3userauth.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A5F33E1F5BC16AA4F743FCB4C8269A12 /* config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FFCD0D0B609964EE84DD6DE991392635 /* config.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A65DC7185E73F533AF308756A49676DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9600EC8A4ABCA95DC27ABCD2EE71624 /* UIKit.framework */; };
 		A717F68EECF9715AF20548C958CD3038 /* WCTValue.mm in Sources */ = {isa = PBXBuildFile; fileRef = D077DD4536F233D865233272B7EAAA8D /* WCTValue.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A7BD6606EBF5D6601CAC54527B2C5389 /* loadext.c in Sources */ = {isa = PBXBuildFile; fileRef = C6D3F7F34969233F5CBD8A57F0380EDB /* loadext.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A7E4402C354B7E320512DE86BBF71233 /* WCTSequence+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D2ACA5686B7F9D1909FA31ED5793FA /* WCTSequence+WCTTableCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -311,6 +311,7 @@
 		B4CD532F04070CD92027336A7591AFD3 /* fts_modules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88965A39EC0B1B8B88F0AA0FE3B46A7C /* fts_modules.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B4FB4F5565A3E787E97FB24DBD2B5C16 /* sqliterk_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B06314D45F2E06B6E9CFCEB034DA65C /* sqliterk_output.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B53C9B84D75E52154FD1824800A9369C /* database_transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6628A37AEE8794675DB26B76129455A /* database_transaction.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B5B812A25F728AAF2D50A25E47306CE5 /* CLOLogMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A4C25C36802083DD4F15E8153E62A6 /* CLOLogMgr.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B5D8FF3E96F534F7EBD209703094204C /* statement_explain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7131B8DBF7EAC40A27D326FA22BB14ED /* statement_explain.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B6C1139AA135D0C46A19C35464EF4401 /* tokenize.c in Sources */ = {isa = PBXBuildFile; fileRef = 5174E96A260D9352446F38858F924727 /* tokenize.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B6E4CA9674042602E8EE71269ED93872 /* WCTChainCall+Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = E6AE8DEC154FAF8E5FAC83B2190407E6 /* WCTChainCall+Statistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -331,7 +332,6 @@
 		BCCE71CA1B7D41F5E0005CA54F0ACC77 /* constraint_table.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 885F8785174DDDAF2FC332C989B7327C /* constraint_table.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCD1431AB47DA64D44A6E01D97230ADB /* vdbetrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 63505614A03A27BA28C08A43469EE54F /* vdbetrace.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BCF6AC6CA6C41E3D2466C1C5DF730B01 /* utility.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8E1F22ECB36C5A1F7A046A0746A56F28 /* utility.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD1BDB8AD9C8D6092C226D882779C617 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9600EC8A4ABCA95DC27ABCD2EE71624 /* UIKit.framework */; };
 		BD81EB89A1A015FFAD139A26CA776AFD /* WCTDelete+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B924073AA66FB35A7FBB105470EB27E /* WCTDelete+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDE475DBB01926998CEDE272E28E71F1 /* WCTInterface+ChainCall.mm in Sources */ = {isa = PBXBuildFile; fileRef = C20C402899177A9FFC639A026CADDB3F /* WCTInterface+ChainCall.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BE93A9254A7878EC4E74D8C15D777650 /* WCTMacroHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BAF5AEF483126389859BA8E59337F9 /* WCTMacroHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -388,6 +388,7 @@
 		DE0922E3CDBAFF250BA90E058A6D45B2 /* WCTMaster+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = EDB449C6A1B8F633417BB735117E9D6F /* WCTMaster+WCTTableCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE0D6782D4D6EBBDB1FBBF3CC2C40979 /* fts3_tokenize_vtab.c in Sources */ = {isa = PBXBuildFile; fileRef = 44D6575860A68ABAAA218F16894A15E6 /* fts3_tokenize_vtab.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DF131CEFAD190AD677074DB956A276EF /* global.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A8E7C0953681193547CCF8EFD87C802 /* global.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E021C9ABC5163A09C276BC015F41F043 /* CLOCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 148134008BD26472D49FE3D0F43074FB /* CLOCommon-dummy.m */; };
 		E0AFC747F012ABF9C9A22B741FEDBEDE /* WCTDatabase.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF9ED2B8F779CF0F7C0160B736997DF1 /* WCTDatabase.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E1C59041171351E4DE6A205495860C03 /* os_wcdb.c in Sources */ = {isa = PBXBuildFile; fileRef = B74556A14CBE40675B5DF1C1CC913E87 /* os_wcdb.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E220F724210C5E18D8CD05A464677362 /* clause_join.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9879AB293E7A55E944014C2247C42771 /* clause_join.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -460,7 +461,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1759C4A6EA923829701DC4D3690B2ACA;
+			remoteGlobalIDString = 2D298544D5D6AAAD26B1529B3B4E642A;
 			remoteInfo = CLOCommon;
 		};
 /* End PBXContainerItemProxy section */
@@ -490,7 +491,6 @@
 		0974A6AADCB8FA54BD56E814D9B65B0A /* statement_release.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_release.hpp; path = objc/WCDB/abstract/statement_release.hpp; sourceTree = "<group>"; };
 		0AE2F32380F20F7766E3AC96622DAA32 /* WCTRowSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTRowSelect.mm; path = objc/WCDB/interface/chaincall/WCTRowSelect.mm; sourceTree = "<group>"; };
 		0B06314D45F2E06B6E9CFCEB034DA65C /* sqliterk_output.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_output.cpp; path = repair/sqliterk_output.cpp; sourceTree = "<group>"; };
-		0B174A0FE7203CCC4EBA5AFB9DB79EAD /* CLOLogMgr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLOLogMgr.m; sourceTree = "<group>"; };
 		0BE6DBC2BDA743E9F8C04782FE9649C2 /* statement_pragma.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_pragma.hpp; path = objc/WCDB/abstract/statement_pragma.hpp; sourceTree = "<group>"; };
 		0C01D8CD7FF47DFC8ACA28275E24C70B /* mutex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex.c; path = sqlcipher/src/mutex.c; sourceTree = "<group>"; };
 		0CDBCD21FCACDC74970618A18CF0801E /* order.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = order.cpp; path = objc/WCDB/abstract/order.cpp; sourceTree = "<group>"; };
@@ -523,6 +523,7 @@
 		1F0467788041C465B71F52E7EE8EDD23 /* statement_rollback.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_rollback.cpp; path = objc/WCDB/abstract/statement_rollback.cpp; sourceTree = "<group>"; };
 		1F5610710AD1E3ED814BAE2578043312 /* recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = recyclable.hpp; path = objc/WCDB/util/recyclable.hpp; sourceTree = "<group>"; };
 		21217BBFD1E327DD2AB2B47AA06A1115 /* column_def.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_def.cpp; path = objc/WCDB/abstract/column_def.cpp; sourceTree = "<group>"; };
+		21A0B5DB4AD5AF5AB92048118F8C29F2 /* CLOLogMgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLOLogMgr.h; sourceTree = "<group>"; };
 		231A9253EEE9147E2666695C29EF76D8 /* statement_recyclable.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_recyclable.hpp; path = objc/WCDB/core/statement_recyclable.hpp; sourceTree = "<group>"; };
 		2549370ECFE4A5C5C62B0640967595C6 /* parse.c */ = {isa = PBXFileReference; includeInIndex = 1; name = parse.c; path = sqlcipher/parse.c; sourceTree = "<group>"; };
 		25C222A0FF23E53D13FFC30B0CE1677F /* WCTObjCAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTObjCAccessor.h; path = objc/WCDB/interface/orm/accessor/WCTObjCAccessor.h; sourceTree = "<group>"; };
@@ -690,6 +691,7 @@
 		81536BBCA09992B82D5F575D5FACCB6B /* statement_reindex.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_reindex.cpp; path = objc/WCDB/abstract/statement_reindex.cpp; sourceTree = "<group>"; };
 		817470C5109EB6CB48F0415DD48943C8 /* sqliterk_column.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_column.c; path = repair/sqliterk_column.c; sourceTree = "<group>"; };
 		82B3FD438ECCADB038B05613DBA551C0 /* clause_join.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = clause_join.cpp; path = objc/WCDB/abstract/clause_join.cpp; sourceTree = "<group>"; };
+		82D43880F614CB34140452233C2B3DF3 /* CLOCommonCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLOCommonCore.h; sourceTree = "<group>"; };
 		837046174F051DDCCA2626C914F700F4 /* WCTCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTCoding.h; path = objc/WCDB/interface/orm/coding/WCTCoding.h; sourceTree = "<group>"; };
 		83CF8F488AD5426F0B3A0161406D0915 /* sqlite3rtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3rtree.h; path = sqlcipher/ext/rtree/sqlite3rtree.h; sourceTree = "<group>"; };
 		8467A56D9B7F3557B031761F7FD58538 /* mutex_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex_unix.c; path = sqlcipher/src/mutex_unix.c; sourceTree = "<group>"; };
@@ -734,7 +736,6 @@
 		988908085920A8CB63B01B4B9B541939 /* WCTDatabase+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Table.mm"; path = "objc/WCDB/interface/table/WCTDatabase+Table.mm"; sourceTree = "<group>"; };
 		98F59C8EAFF3500AC01CA8FA23DA4277 /* vtab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vtab.c; path = sqlcipher/src/vtab.c; sourceTree = "<group>"; };
 		992150E728E0C78BD08FC7B24186FB46 /* statement_update.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_update.hpp; path = objc/WCDB/abstract/statement_update.hpp; sourceTree = "<group>"; };
-		99A8DE2553EECD35CA8786D96FA59255 /* CLOLogMgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLOLogMgr.h; sourceTree = "<group>"; };
 		9B1D5F68E6EAD3E022B5B39577DDA9E4 /* WCTTransaction+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTransaction+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTTransaction+Compatible.mm"; sourceTree = "<group>"; };
 		9B4457504CDF564AB1CCB0AC360BEAD8 /* column_type.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_type.cpp; path = objc/WCDB/abstract/column_type.cpp; sourceTree = "<group>"; };
 		9B47FE64A6742AE4A691ED4D9B589441 /* mutex_wcdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex_wcdb.h; path = sqlcipher/src/mutex_wcdb.h; sourceTree = "<group>"; };
@@ -763,6 +764,7 @@
 		A6628A37AEE8794675DB26B76129455A /* database_transaction.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_transaction.cpp; path = objc/WCDB/core/database_transaction.cpp; sourceTree = "<group>"; };
 		A6BAF5AEF483126389859BA8E59337F9 /* WCTMacroHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTMacroHelper.h; path = objc/WCDB/interface/orm/macro/WCTMacroHelper.h; sourceTree = "<group>"; };
 		A6C36B174099377DA6A5ED64478610E4 /* hwtime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwtime.h; path = sqlcipher/src/hwtime.h; sourceTree = "<group>"; };
+		A7A4C25C36802083DD4F15E8153E62A6 /* CLOLogMgr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLOLogMgr.m; sourceTree = "<group>"; };
 		A7B6CC974D0698912854C42C673D1C21 /* WCTDatabase+Transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Transaction.h"; path = "objc/WCDB/interface/transaction/WCTDatabase+Transaction.h"; sourceTree = "<group>"; };
 		AA551DA05449BAECE3076E2E537B81BC /* libCLOCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCLOCommon.a; path = libCLOCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB6167E48AD7C5A55AF367FB7499E0F /* crypto_cc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_cc.c; path = sqlcipher/src/crypto_cc.c; sourceTree = "<group>"; };
@@ -939,12 +941,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCD255068EDD437A371AB018CFB40722 /* Frameworks */ = {
+		CABE4FCAEECFF1E869564C0798808D82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D479B6DBD0C396B15A720EBF0DCAE2 /* Foundation.framework in Frameworks */,
-				BD1BDB8AD9C8D6092C226D882779C617 /* UIKit.framework in Frameworks */,
+				8D649CA10B2386F2CB03450459D24C0F /* Foundation.framework in Frameworks */,
+				A65DC7185E73F533AF308756A49676DF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -957,16 +959,6 @@
 				34F66408AD0483402F53CD5BC6EB8837 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		20E3921D42EA571A6C4BD31A6753DDC2 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				99A8DE2553EECD35CA8786D96FA59255 /* CLOLogMgr.h */,
-				0B174A0FE7203CCC4EBA5AFB9DB79EAD /* CLOLogMgr.m */,
-			);
-			name = Core;
-			path = Core;
 			sourceTree = "<group>";
 		};
 		315AA2BFA9535BBCB6B45B1928CDF062 /* CLOCommon */ = {
@@ -990,6 +982,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		4959A291E589E8D8C6FC0DF5CD34D932 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				82D43880F614CB34140452233C2B3DF3 /* CLOCommonCore.h */,
+				21A0B5DB4AD5AF5AB92048118F8C29F2 /* CLOLogMgr.h */,
+				A7A4C25C36802083DD4F15E8153E62A6 /* CLOLogMgr.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
 		5051ED59C3E42A5C1F1E216F78FE7C49 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -999,6 +1002,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/WCDB";
+			sourceTree = "<group>";
+		};
+		57D480721BB6713A83D91B483A13873F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4959A291E589E8D8C6FC0DF5CD34D932 /* Core */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5801C662D8197868FA51A044AA79027A /* Pods-iRemeber */ = {
@@ -1500,7 +1512,7 @@
 		9F3BCE14A99985CC847A710C0A3A5FD4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B469BF3A188C278A34911454E3DCB5BE /* Classes */,
+				57D480721BB6713A83D91B483A13873F /* Classes */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1514,15 +1526,6 @@
 			);
 			name = "Support Files";
 			path = "../../cclovett/iRemeber/iRemeber/Pods/Target Support Files/CLOCommon";
-			sourceTree = "<group>";
-		};
-		B469BF3A188C278A34911454E3DCB5BE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				20E3921D42EA571A6C4BD31A6753DDC2 /* Core */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		B543837E6A869275DC9B2264FFEF42EB /* Bugly */ = {
@@ -1760,24 +1763,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44C79C1C1DE28870D84AED419E89AC37 /* Headers */ = {
+		7BD389EA655E87103349355801E4225B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				646225369AA4AB6FE42C5BDEAC815FE3 /* CLOLogMgr.h in Headers */,
+				A04E0D4E380E37C53339B820A0D7553D /* CLOCommonCore.h in Headers */,
+				5D986F01668BAEC58880F967460C165E /* CLOLogMgr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1759C4A6EA923829701DC4D3690B2ACA /* CLOCommon */ = {
+		2D298544D5D6AAAD26B1529B3B4E642A /* CLOCommon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47F0298E41E25326AC269E681A969770 /* Build configuration list for PBXNativeTarget "CLOCommon" */;
+			buildConfigurationList = 0CFD1E0B8AD151964B7A539AC132FE7C /* Build configuration list for PBXNativeTarget "CLOCommon" */;
 			buildPhases = (
-				21EDCEF2A38846F66C2725CF56E67C9D /* Sources */,
-				CCD255068EDD437A371AB018CFB40722 /* Frameworks */,
-				44C79C1C1DE28870D84AED419E89AC37 /* Headers */,
+				3AEC800BD1E6D52EAA9B7F3FB4AE9B2B /* Sources */,
+				CABE4FCAEECFF1E869564C0798808D82 /* Frameworks */,
+				7BD389EA655E87103349355801E4225B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1844,7 +1848,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1759C4A6EA923829701DC4D3690B2ACA /* CLOCommon */,
+				2D298544D5D6AAAD26B1529B3B4E642A /* CLOCommon */,
 				89CCED109582CB0E812299B3AE63ABFA /* Pods-iRemeber */,
 				366BCF78EF7BEDD9197022A931C46688 /* WCDB */,
 			);
@@ -1852,12 +1856,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21EDCEF2A38846F66C2725CF56E67C9D /* Sources */ = {
+		3AEC800BD1E6D52EAA9B7F3FB4AE9B2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E46087515969420A5BF52E1B8393CB5 /* CLOCommon-dummy.m in Sources */,
-				6CBFD0FA8C7458C5FCE8DF578AA322C0 /* CLOLogMgr.m in Sources */,
+				E021C9ABC5163A09C276BC015F41F043 /* CLOCommon-dummy.m in Sources */,
+				B5B812A25F728AAF2D50A25E47306CE5 /* CLOLogMgr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2112,7 +2116,7 @@
 		4256D27869E8A46A560028126680430F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CLOCommon;
-			target = 1759C4A6EA923829701DC4D3690B2ACA /* CLOCommon */;
+			target = 2D298544D5D6AAAD26B1529B3B4E642A /* CLOCommon */;
 			targetProxy = EC9B974D614E5F1459BC5E0A4EC761EC /* PBXContainerItemProxy */;
 		};
 		AA9DA837074205291F34193497F90E13 /* PBXTargetDependency */ = {
@@ -2134,6 +2138,27 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/WCDB/WCDB-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ADEE13473C536F071933541E251C954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F32A6DE0063A31FD7B12093CDCE9631 /* CLOCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CLOCommon/CLOCommon-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -2320,7 +2345,7 @@
 			};
 			name = Debug;
 		};
-		B6740FF90FA31D5B758BF0A72B925969 /* Debug */ = {
+		C988C14315D9A41F3064144F2D9762D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F32A6DE0063A31FD7B12093CDCE9631 /* CLOCommon.xcconfig */;
 			buildSettings = {
@@ -2340,27 +2365,6 @@
 			};
 			name = Debug;
 		};
-		BA6FCB5FCDFFCC88BC99774B9B9F0416 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F32A6DE0063A31FD7B12093CDCE9631 /* CLOCommon.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CLOCommon/CLOCommon-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2373,20 +2377,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		0CFD1E0B8AD151964B7A539AC132FE7C /* Build configuration list for PBXNativeTarget "CLOCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C988C14315D9A41F3064144F2D9762D4 /* Debug */,
+				2ADEE13473C536F071933541E251C954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				824B943B728ED1CCA9EF4A7E8CF590EB /* Debug */,
 				98F29E7567052F62660DDD7069ADF73C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		47F0298E41E25326AC269E681A969770 /* Build configuration list for PBXNativeTarget "CLOCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6740FF90FA31D5B758BF0A72B925969 /* Debug */,
-				BA6FCB5FCDFFCC88BC99774B9B9F0416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

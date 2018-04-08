@@ -10,9 +10,9 @@
 
 @interface DBTask : NSObject
 
-@property int db_uuid;// 自动uuid
+@property int mUUID;// 自动uuid
 
-@property(retain) NSDate *db_createTime;// 添加日期
-@property(retain) NSDate *db_modifiedTime;// 修改日期
+@property(retain) NSDate *mCreateTime;// 添加日期
+@property(retain) NSDate *mModifiedTime;// 修改日期
 
 @end

@@ -17,6 +17,7 @@
   },
   "requires_arc": true,
   "default_subspecs": "Core",
+  "source_files": "Classes/CLOCommon.h",
   "platforms": {
     "osx": null,
     "ios": null,
