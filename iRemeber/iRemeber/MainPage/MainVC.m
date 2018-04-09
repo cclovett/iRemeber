@@ -9,6 +9,8 @@
 #import "MainVC.h"
 #import <CLOCommon/CLOCommonCore.h>
 #import "MainVC+UIView.h"
+#import "TabBarEntity.h"
+#import "TabBarView.h"
 
 @interface MainVC ()
 
@@ -23,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self fLoadViews];
-    
+    [self fSetupTabBarEntities];
 }
 
 
@@ -39,5 +41,26 @@
     return UIStatusBarStyleLightContent;
 }
 
+- (void)fSetupTabBarEntities
+{
+    @weakify(self)
+    TabBarEntity *ety1 = [[TabBarEntity alloc] init];
+    {
+        TabBarEntity *ety = ety1;
+        ety.mBlock = ^(TabBarButton *btn) {
+            @strongify(self)
+            // 添加一个提醒
+        };
+    }
+    TabBarEntity *ety2 = [[TabBarEntity alloc] init];
+    {
+        TabBarEntity *ety = ety2;
+        ety.mBlock = ^(TabBarButton *btn) {
+            @strongify(self)
+            // 我
+        };
+    }
+    [self.mTabBarView fSetupEntities:@[ety1, ety2]];
+}
 
 @end

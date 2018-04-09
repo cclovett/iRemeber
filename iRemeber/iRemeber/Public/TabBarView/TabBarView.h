@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class TabBarEntity;
+
 @interface TabBarView : UIView
+
+- (void)fSetupEntities:(NSArray<TabBarEntity *> *)entities;
 
 @end

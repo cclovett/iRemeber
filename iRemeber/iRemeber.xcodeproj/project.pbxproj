@@ -18,6 +18,8 @@
 		42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F52079EB1B00BC3641 /* DBTask.mm */; };
 		42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F92079F42C00BC3641 /* TabBarView.m */; };
 		42F9077F207A0617003A8F24 /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9077E207A0617003A8F24 /* TopBarView.m */; };
+		7144709A207BBB0F00CC34F5 /* TabBarEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71447099207BBB0F00CC34F5 /* TabBarEntity.m */; };
+		7144709D207BBB4500CC34F5 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7144709C207BBB4500CC34F5 /* TabBarButton.m */; };
 		A3B1E1D9E4E7E65582EC6A5C /* libPods-iRemeber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0230FF2E9A6B765BA2DD8369 /* libPods-iRemeber.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,10 @@
 		42E799F92079F42C00BC3641 /* TabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarView.m; sourceTree = "<group>"; };
 		42F9077D207A0617003A8F24 /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
 		42F9077E207A0617003A8F24 /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
+		71447098207BBB0F00CC34F5 /* TabBarEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarEntity.h; sourceTree = "<group>"; };
+		71447099207BBB0F00CC34F5 /* TabBarEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarEntity.m; sourceTree = "<group>"; };
+		7144709B207BBB4500CC34F5 /* TabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		7144709C207BBB4500CC34F5 /* TabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
 		D12C817E31D46C951AFD0BD1 /* Pods-iRemeber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRemeber.release.xcconfig"; path = "Pods/Target Support Files/Pods-iRemeber/Pods-iRemeber.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +144,10 @@
 		42E799F72079F40D00BC3641 /* TabBarView */ = {
 			isa = PBXGroup;
 			children = (
+				7144709B207BBB4500CC34F5 /* TabBarButton.h */,
+				7144709C207BBB4500CC34F5 /* TabBarButton.m */,
+				71447098207BBB0F00CC34F5 /* TabBarEntity.h */,
+				71447099207BBB0F00CC34F5 /* TabBarEntity.m */,
 				42E799F82079F42C00BC3641 /* TabBarView.h */,
 				42E799F92079F42C00BC3641 /* TabBarView.m */,
 			);
@@ -298,6 +308,8 @@
 				42A94B952079B2770063FAFE /* main.m in Sources */,
 				42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */,
 				42A94BA52079E7A70063FAFE /* DBMgr.m in Sources */,
+				7144709A207BBB0F00CC34F5 /* TabBarEntity.m in Sources */,
+				7144709D207BBB4500CC34F5 /* TabBarButton.m in Sources */,
 				42F9077F207A0617003A8F24 /* TopBarView.m in Sources */,
 				42A94B872079B2770063FAFE /* AppDelegate.m in Sources */,
 			);

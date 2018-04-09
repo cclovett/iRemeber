@@ -16,11 +16,16 @@
 @end
 @implementation TopBarView
 
-- (void)setFrame:(CGRect)frame
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    [super setFrame:frame];
-    
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        self.backgroundColor = kCLOColor(50, 50, 50, 1);
+    }
+    return self;
 }
+
 
 - (void)fSetupTitle:(NSString *)strText
 {
@@ -30,12 +35,13 @@
     self.mTitle.text = strText;
 }
 
+
 - (UILabel *)mTitle
 {
     if (!_mTitle) {
         
         UILabel *v = [[UILabel alloc] init];
-        v.backgroundColor = [UIColor redColor];
+        v.backgroundColor = [UIColor clearColor];
         v.textColor = kCLOColor(255, 255, 255, 1);
         v.textAlignment = NSTextAlignmentCenter;
         _mTitle = v;

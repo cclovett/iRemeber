@@ -7,8 +7,8 @@
 //
 
 #import "MainVC.h"
-#import "TabBarView.h"
-#import "TopBarView.h"
+
+@class TabBarView, TopBarView;
 
 @interface MainVC (UIView)
 
