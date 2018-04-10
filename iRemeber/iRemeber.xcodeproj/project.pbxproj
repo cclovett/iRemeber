@@ -18,6 +18,10 @@
 		42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F52079EB1B00BC3641 /* DBTask.mm */; };
 		42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E799F92079F42C00BC3641 /* TabBarView.m */; };
 		42F9077F207A0617003A8F24 /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9077E207A0617003A8F24 /* TopBarView.m */; };
+		713C92CD207CFA6C001A986C /* TaskAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C92CC207CFA6C001A986C /* TaskAddVC.m */; };
+		713C92D0207D0193001A986C /* TaskAddVC+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C92CF207D0193001A986C /* TaskAddVC+UIView.m */; };
+		713C92D3207D038E001A986C /* TopBarView+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C92D2207D038E001A986C /* TopBarView+UIView.m */; };
+		713C92D7207D0716001A986C /* TopBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C92D6207D0716001A986C /* TopBarButton.m */; };
 		7144709A207BBB0F00CC34F5 /* TabBarEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71447099207BBB0F00CC34F5 /* TabBarEntity.m */; };
 		7144709D207BBB4500CC34F5 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7144709C207BBB4500CC34F5 /* TabBarButton.m */; };
 		A3B1E1D9E4E7E65582EC6A5C /* libPods-iRemeber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0230FF2E9A6B765BA2DD8369 /* libPods-iRemeber.a */; };
@@ -47,6 +51,14 @@
 		42E799F92079F42C00BC3641 /* TabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarView.m; sourceTree = "<group>"; };
 		42F9077D207A0617003A8F24 /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
 		42F9077E207A0617003A8F24 /* TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopBarView.m; sourceTree = "<group>"; };
+		713C92CB207CFA6C001A986C /* TaskAddVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskAddVC.h; sourceTree = "<group>"; };
+		713C92CC207CFA6C001A986C /* TaskAddVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskAddVC.m; sourceTree = "<group>"; };
+		713C92CE207D0193001A986C /* TaskAddVC+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskAddVC+UIView.h"; sourceTree = "<group>"; };
+		713C92CF207D0193001A986C /* TaskAddVC+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TaskAddVC+UIView.m"; sourceTree = "<group>"; };
+		713C92D1207D038E001A986C /* TopBarView+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopBarView+UIView.h"; sourceTree = "<group>"; };
+		713C92D2207D038E001A986C /* TopBarView+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TopBarView+UIView.m"; sourceTree = "<group>"; };
+		713C92D5207D0716001A986C /* TopBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopBarButton.h; sourceTree = "<group>"; };
+		713C92D6207D0716001A986C /* TopBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopBarButton.m; sourceTree = "<group>"; };
 		71447098207BBB0F00CC34F5 /* TabBarEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarEntity.h; sourceTree = "<group>"; };
 		71447099207BBB0F00CC34F5 /* TabBarEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarEntity.m; sourceTree = "<group>"; };
 		7144709B207BBB4500CC34F5 /* TabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
@@ -97,6 +109,7 @@
 				42A94B8B2079B2770063FAFE /* Main.storyboard */,
 				42A94B9D2079B8C50063FAFE /* MainPage */,
 				42A94BA12079B9070063FAFE /* Public */,
+				713C92CA207CFA4B001A986C /* TaskAddPage */,
 			);
 			path = iRemeber;
 			sourceTree = "<group>";
@@ -157,10 +170,33 @@
 		42F9077C207A0617003A8F24 /* TopBarView */ = {
 			isa = PBXGroup;
 			children = (
+				713C92D4207D06F5001A986C /* TopBarButton */,
 				42F9077D207A0617003A8F24 /* TopBarView.h */,
 				42F9077E207A0617003A8F24 /* TopBarView.m */,
+				713C92D1207D038E001A986C /* TopBarView+UIView.h */,
+				713C92D2207D038E001A986C /* TopBarView+UIView.m */,
 			);
 			path = TopBarView;
+			sourceTree = "<group>";
+		};
+		713C92CA207CFA4B001A986C /* TaskAddPage */ = {
+			isa = PBXGroup;
+			children = (
+				713C92CB207CFA6C001A986C /* TaskAddVC.h */,
+				713C92CC207CFA6C001A986C /* TaskAddVC.m */,
+				713C92CE207D0193001A986C /* TaskAddVC+UIView.h */,
+				713C92CF207D0193001A986C /* TaskAddVC+UIView.m */,
+			);
+			path = TaskAddPage;
+			sourceTree = "<group>";
+		};
+		713C92D4207D06F5001A986C /* TopBarButton */ = {
+			isa = PBXGroup;
+			children = (
+				713C92D5207D0716001A986C /* TopBarButton.h */,
+				713C92D6207D0716001A986C /* TopBarButton.m */,
+			);
+			path = TopBarButton;
 			sourceTree = "<group>";
 		};
 		7B7B2806C316DC04F3590F7A /* Pods */ = {
@@ -304,12 +340,16 @@
 			files = (
 				42E799FA2079F42C00BC3641 /* TabBarView.m in Sources */,
 				424B0E62207A0042002784F5 /* MainVC+UIView.m in Sources */,
+				713C92D0207D0193001A986C /* TaskAddVC+UIView.m in Sources */,
+				713C92D7207D0716001A986C /* TopBarButton.m in Sources */,
 				42A94BA02079B8C50063FAFE /* MainVC.m in Sources */,
 				42A94B952079B2770063FAFE /* main.m in Sources */,
 				42E799F62079EB1B00BC3641 /* DBTask.mm in Sources */,
 				42A94BA52079E7A70063FAFE /* DBMgr.m in Sources */,
+				713C92CD207CFA6C001A986C /* TaskAddVC.m in Sources */,
 				7144709A207BBB0F00CC34F5 /* TabBarEntity.m in Sources */,
 				7144709D207BBB4500CC34F5 /* TabBarButton.m in Sources */,
+				713C92D3207D038E001A986C /* TopBarView+UIView.m in Sources */,
 				42F9077F207A0617003A8F24 /* TopBarView.m in Sources */,
 				42A94B872079B2770063FAFE /* AppDelegate.m in Sources */,
 			);

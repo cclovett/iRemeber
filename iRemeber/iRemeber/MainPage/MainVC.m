@@ -11,6 +11,7 @@
 #import "MainVC+UIView.h"
 #import "TabBarEntity.h"
 #import "TabBarView.h"
+#import "TaskAddVC.h"
 
 @interface MainVC ()
 
@@ -43,20 +44,23 @@
 
 - (void)fSetupTabBarEntities
 {
-    @weakify(self)
     TabBarEntity *ety1 = [[TabBarEntity alloc] init];
     {
         TabBarEntity *ety = ety1;
+        @CLOWeakify(self)
         ety.mBlock = ^(TabBarButton *btn) {
-            @strongify(self)
+            @CLOStrongify(self)
             // 添加一个提醒
+            TaskAddVC *vc = [[TaskAddVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         };
     }
     TabBarEntity *ety2 = [[TabBarEntity alloc] init];
     {
         TabBarEntity *ety = ety2;
+        @CLOWeakify(self)
         ety.mBlock = ^(TabBarButton *btn) {
-            @strongify(self)
+            @CLOStrongify(self)
             // 我
         };
     }

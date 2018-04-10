@@ -7,21 +7,42 @@
 //
 
 #import "TopBarView.h"
-#import <CLOCommon/CLOCommonUI.h>
+#import "Global.h"
+#import "TopBarView+UIView.h"
+#import "TopBarButton.h"
 
 @interface TopBarView ()
 
+@property (nonatomic, assign) eTopBarViewStyle mStyle;
 @property (nonatomic, strong) UILabel *mTitle;
+@property (nonatomic, strong) TopBarButton *mBackButton;
 
 @end
 @implementation TopBarView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
+    return [self initWithFrame:frame withStyle:eTopBarViewStyle_Default];
+}
+
+
+- (instancetype)initWithFrame:(CGRect)frame withStyle:(eTopBarViewStyle)style
+{
     self = [super initWithFrame:frame];
     if (self) {
         
-        self.backgroundColor = kCLOColor(50, 50, 50, 1);
+        _mStyle = style;
+        switch (self.mStyle) {
+            case eTopBarViewStyle_LightContent:
+                self.backgroundColor = kLightContentBackgroundColor;
+                break;
+                
+            default:
+                self.backgroundColor = kDarkContentBackgroundColor;
+                break;
+        }
+        
+        [self fLoadViews];
     }
     return self;
 }
@@ -29,26 +50,36 @@
 
 - (void)fSetupTitle:(NSString *)strText
 {
-    CGFloat y = [CLOPositionHelper sGetStatusBarHeight];
-    CGFloat height = self.bounds.size.height - y;
-    self.mTitle.frame = CGRectMake(0, y, self.bounds.size.width, height);
-    self.mTitle.text = strText;
-}
-
-
-- (UILabel *)mTitle
-{
-    if (!_mTitle) {
-        
-        UILabel *v = [[UILabel alloc] init];
-        v.backgroundColor = [UIColor clearColor];
-        v.textColor = kCLOColor(255, 255, 255, 1);
-        v.textAlignment = NSTextAlignmentCenter;
-        _mTitle = v;
-        [self addSubview:v];
-    }
+    if (strText.length > 0) {
     
-    return _mTitle;
+        self.mTitle.hidden = NO;
+        CGFloat y = [CLOPositionHelper sGetStatusBarHeight];
+        CGFloat height = self.bounds.size.height - y;
+        self.mTitle.frame = CGRectMake(0, y, self.bounds.size.width, height);
+        self.mTitle.text = strText;
+    }
+    else {
+        
+        self.mTitle.hidden = YES;
+    }
 }
 
+
+- (void)fSetupBackButtonTitle:(NSString *)strText withBlock:(TopBarButtonClickBlock)block
+{
+    if (block) {
+        
+        self.mBackButton.hidden = NO;
+        CGFloat y = [CLOPositionHelper sGetStatusBarHeight];
+        CGFloat height = self.bounds.size.height - y;
+        CGFloat width = 50;
+        self.mBackButton.frame = CGRectMake(5, y, width, height);
+        self.mBackButton.mBlock = block;
+    }
+    else {
+        
+        self.mBackButton.mBlock = nil;
+        self.mBackButton.hidden = YES;
+    }
+}
 @end
