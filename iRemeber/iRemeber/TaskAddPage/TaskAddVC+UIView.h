@@ -11,6 +11,8 @@
 @interface TaskAddVC (UIView)
 
 @property (strong, nonatomic) TopBarView *mTopBarView;
+@property (strong, nonatomic) ButtonView *mAddButton;
+
 
 - (void)fLoadViews;
 

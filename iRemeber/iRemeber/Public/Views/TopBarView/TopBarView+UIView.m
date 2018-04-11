@@ -8,7 +8,7 @@
 
 #import "TopBarView+UIView.h"
 #import "Global.h"
-#import "TopBarButton.h"
+#import "ButtonView.h"
 
 @implementation TopBarView (UIView)
 
@@ -40,7 +40,7 @@
     }
     {
         //mBackButton
-        TopBarButton *v = [[TopBarButton alloc] init];
+        ButtonView *v = [[ButtonView alloc] initWithFrame:CGRectZero];
         v.hidden = YES;// 先隐藏
         [self addSubview:v];
         

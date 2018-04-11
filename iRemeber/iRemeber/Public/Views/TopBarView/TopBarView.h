@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TopBarButton.h"
+#import "ButtonView.h"
 
 typedef NS_ENUM(NSUInteger, eTopBarViewStyle) {
     
@@ -19,7 +19,7 @@ typedef NS_ENUM(NSUInteger, eTopBarViewStyle) {
 
 @property (nonatomic, assign, readonly) eTopBarViewStyle mStyle;
 @property (nonatomic, strong, readonly) UILabel *mTitle;
-@property (nonatomic, strong, readonly) TopBarButton *mBackButton;
+@property (nonatomic, strong, readonly) ButtonView *mBackButton;
 
 
 - (instancetype)initWithFrame:(CGRect)frame withStyle:(eTopBarViewStyle)style;
@@ -39,6 +39,6 @@ typedef NS_ENUM(NSUInteger, eTopBarViewStyle) {
  @param strText 返回显示字符串
  @param block 点击后block回调
  */
-- (void)fSetupBackButtonTitle:(NSString *)strText withBlock:(TopBarButtonClickBlock)block;
+- (void)fSetupBackButtonTitle:(NSString *)strText withBlock:(bButtonViewBlock_TouchUpInside)block;
 
 @end

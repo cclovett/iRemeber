@@ -9,9 +9,10 @@
 #import "TabBarView.h"
 #import <CLOCommon/CLOCommonUI.h>
 #import "TabBarEntity.h"
-#import "TabBarButton.h"
+#import "ButtonView.h"
 
 #define kTabBarView_Line_Height 1.0
+
 @interface TabBarView ()
 
 @property (strong, nonatomic) CALayer *mLineLayer;
@@ -41,14 +42,14 @@
     _mEntities = entities;
     
     CGFloat y = kTabBarView_Line_Height;
-    CGFloat w = self.bounds.size.height - y;
+    CGFloat w = self.bounds.size.height - y - [CLOPositionHelper sGetiPhoneXBottomHeight];
     CGFloat dis = (self.bounds.size.width - w * self.mEntities.count) / (self.mEntities.count + 1);
     for (int i = 0; i < self.mEntities.count; ++i) {
         
         TabBarEntity *entity = self.mEntities[i];
-        TabBarButton *btn = [[TabBarButton alloc] initWithFrame:CGRectMake((i + 1) * dis + i * w, y, w, w)];
+        ButtonView *btn = [[ButtonView alloc] initWithFrame:CGRectMake((i + 1) * dis + i * w, y, w, w)];
         btn.backgroundColor = [UIColor yellowColor];
-        btn.mBlock = entity.mBlock;
+        btn.mBlock_TouchUpInside = entity.mBlock;
         [self addSubview:btn];
     }
 }

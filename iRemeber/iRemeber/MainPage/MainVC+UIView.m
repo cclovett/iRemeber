@@ -27,7 +27,7 @@
                                                 withStyle:eTopBarViewStyle_LightContent];
         [self.view addSubview:v];
         self.mTopBarView = v;
-        [v fSetupTitle:@"iRemember"];
+        [v fSetupTitle:NSLocalizedString(@"MainPageTitle", @"主页标题")];
     }
     {
         // mTabBarView

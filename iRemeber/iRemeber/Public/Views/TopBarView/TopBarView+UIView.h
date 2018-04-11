@@ -12,7 +12,7 @@
 
 @property (nonatomic, assign) eTopBarViewStyle mStyle;
 @property (nonatomic, strong) UILabel *mTitle;
-@property (nonatomic, strong) TopBarButton *mBackButton;
+@property (nonatomic, strong) ButtonView *mBackButton;
 
 
 - (void)fLoadViews;

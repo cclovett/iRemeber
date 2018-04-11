@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class TopBarView;
+@class TopBarView, ButtonView;
 
 @interface TaskAddVC : UIViewController
 
 @property (strong, nonatomic, readonly) TopBarView *mTopBarView;
+@property (strong, nonatomic, readonly) ButtonView *mAddButton;
 
 @end

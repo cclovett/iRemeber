@@ -48,7 +48,7 @@
     {
         TabBarEntity *ety = ety1;
         @CLOWeakify(self)
-        ety.mBlock = ^(TabBarButton *btn) {
+        ety.mBlock = ^(id sender) {
             @CLOStrongify(self)
             // 添加一个提醒
             TaskAddVC *vc = [[TaskAddVC alloc] init];
@@ -59,7 +59,7 @@
     {
         TabBarEntity *ety = ety2;
         @CLOWeakify(self)
-        ety.mBlock = ^(TabBarButton *btn) {
+        ety.mBlock = ^(id sender) {
             @CLOStrongify(self)
             // 我
         };

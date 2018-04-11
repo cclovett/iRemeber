@@ -9,13 +9,12 @@
 #import "TopBarView.h"
 #import "Global.h"
 #import "TopBarView+UIView.h"
-#import "TopBarButton.h"
 
 @interface TopBarView ()
 
 @property (nonatomic, assign) eTopBarViewStyle mStyle;
 @property (nonatomic, strong) UILabel *mTitle;
-@property (nonatomic, strong) TopBarButton *mBackButton;
+@property (nonatomic, strong) ButtonView *mBackButton;
 
 @end
 @implementation TopBarView
@@ -65,20 +64,20 @@
 }
 
 
-- (void)fSetupBackButtonTitle:(NSString *)strText withBlock:(TopBarButtonClickBlock)block
+- (void)fSetupBackButtonTitle:(NSString *)strText withBlock:(bButtonViewBlock_TouchUpInside)block
 {
     if (block) {
         
         self.mBackButton.hidden = NO;
         CGFloat y = [CLOPositionHelper sGetStatusBarHeight];
         CGFloat height = self.bounds.size.height - y;
-        CGFloat width = 50;
+        CGFloat width = 50;//TODO: 通过文字判断
         self.mBackButton.frame = CGRectMake(5, y, width, height);
-        self.mBackButton.mBlock = block;
+        self.mBackButton.mBlock_TouchUpInside = block;
     }
     else {
         
-        self.mBackButton.mBlock = nil;
+        self.mBackButton.mBlock_TouchUpInside = nil;
         self.mBackButton.hidden = YES;
     }
 }

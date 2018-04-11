@@ -11,9 +11,12 @@
 
 #import <CLOCommon/CLOCommonUI.h>
 
+// 顶部bar 高度
 #define kTopBarView_height 44.0
 
+// 底部bar 高度
 #define kTabBarView_height 49.0
+
 
 // 亮背景 背景颜色
 #define kLightContentBackgroundColor kCLOColor(50, 50, 50, 1)

@@ -10,10 +10,12 @@
 #import "Global.h"
 #import "TopBarView.h"
 #import "TaskAddVC+UIView.h"
+#import "ButtonView.h"
 
 @interface TaskAddVC ()
 
 @property (strong, nonatomic) TopBarView *mTopBarView;
+@property (strong, nonatomic) ButtonView *mAddButton;
 
 @end
 
@@ -27,6 +29,7 @@
     [self fLoadViews];
     
     [self fSetupTopBar];
+    [self fSetupAddButton];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,10 +41,18 @@
 - (void)fSetupTopBar
 {
     @CLOWeakify(self)
-    [self.mTopBarView fSetupBackButtonTitle:@"" withBlock:^(TopBarButton *btn) {
+    [self.mTopBarView fSetupBackButtonTitle:NSLocalizedString(@"MainPageTitle", @"主页标题") withBlock:^(id btn) {
         @CLOStrongify(self)
         [self.navigationController popViewControllerAnimated:YES];
     }];
+}
+- (void)fSetupAddButton
+{
+    @CLOWeakify(self)
+    self.mAddButton.mBlock_TouchUpInside = ^(id sender) {
+        @CLOStrongify(self)
+        [self.navigationController popViewControllerAnimated:YES];
+    };
 }
 
 @end

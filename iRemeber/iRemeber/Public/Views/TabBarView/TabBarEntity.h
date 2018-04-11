@@ -7,16 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class TabBarButton;
-
-typedef void (^TabBarClickBlock)(TabBarButton *btn);
+#import "ButtonView.h"
 
 @interface TabBarEntity : NSObject
 
 @property (strong, nonatomic) NSString *mImage_Nor;
 @property (strong, nonatomic) NSString *mImage_Pre;
 @property (strong, nonatomic) NSString *mTitle;
-@property (copy, nonatomic) TabBarClickBlock mBlock;
+@property (copy, nonatomic) bButtonViewBlock_TouchUpInside mBlock;
 
 @end

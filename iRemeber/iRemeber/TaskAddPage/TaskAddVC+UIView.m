@@ -10,10 +10,13 @@
 #import <CLOCommon/CLOCommonUI.h>
 #import "Global.h"
 #import "TopBarView.h"
+#import "ButtonView.h"
 
 @implementation TaskAddVC (UIView)
 
 @dynamic mTopBarView;
+@dynamic mAddButton;
+
 
 - (void)fLoadViews
 {
@@ -26,7 +29,18 @@
                                                 withStyle:eTopBarViewStyle_Default];
         [self.view addSubview:v];
         self.mTopBarView = v;
-        [v fSetupTitle:@"iRemember"];
+        [v fSetupTitle:NSLocalizedString(@"TaskAddPageTitle", @"添加任务页标题")];
+    }
+    {
+        // mAddButton
+        NSInteger height = 50;
+        NSInteger y = self.view.bounds.size.height - height - [CLOPositionHelper sGetiPhoneXBottomHeight];
+        NSInteger x = 10;
+        ButtonView *btn = [[ButtonView alloc] initWithFrame:CGRectMake(x, y, self.view.bounds.size.width - 2 * x, height)];
+        [self.view addSubview:btn];
+        self.mAddButton = btn;
+        btn.layer.cornerRadius = 8;
+        btn.backgroundColor = [UIColor grayColor];
     }
 }
 
