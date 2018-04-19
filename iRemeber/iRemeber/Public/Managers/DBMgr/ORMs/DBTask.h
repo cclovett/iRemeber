@@ -6,13 +6,13 @@
 //  Copyright © 2018年 Cc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "DBBase.h"
 
-@interface DBTask : NSObject
+@interface DBTask : DBBase
 
-@property int mUUID;// 自动uuid
+@property(retain) NSString* mUUID;// 自动uuid
 
-@property(retain) NSDate *mCreateTime;// 添加日期
-@property(retain) NSDate *mModifiedTime;// 修改日期
+@property(retain) NSDate*   mCreateTime;// 添加日期
+@property(retain) NSDate*   mModifiedTime;// 修改日期
 
 @end

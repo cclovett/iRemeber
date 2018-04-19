@@ -7,11 +7,11 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(inherited) WCDB_BUILTI
 GCC_WARN_64_TO_32_BIT_CONVERSION = NO
 GCC_WARN_UNUSED_FUNCTION = NO
 GCC_WARN_UNUSED_VARIABLE = NO
-HEADER_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/WCDB $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bugly" "${PODS_ROOT}/Headers/Public/CLOCommon" "${PODS_ROOT}/Headers/Public/WCDB"
-LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CLOCommon" "$PODS_CONFIGURATION_BUILD_DIR/WCDB"
+HEADER_SEARCH_PATHS = $(inherited) ${PODS_ROOT}/WCDB $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bugly" "${PODS_ROOT}/Headers/Public/CLOCommon" "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" "${PODS_ROOT}/Headers/Public/WCDB"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/CLOCommon" "$PODS_CONFIGURATION_BUILD_DIR/JVFloatLabeledTextField" "$PODS_CONFIGURATION_BUILD_DIR/WCDB"
 LIBRARY_SEARCH_PATHS[sdk=macosx*] = $(inherited) $(SDKROOT)/usr/lib/system
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bugly" -isystem "${PODS_ROOT}/Headers/Public/CLOCommon" -isystem "${PODS_ROOT}/Headers/Public/WCDB"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CLOCommon" -l"WCDB" -l"c++" -l"z" -framework "Bugly" -framework "CoreFoundation" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bugly" -isystem "${PODS_ROOT}/Headers/Public/CLOCommon" -isystem "${PODS_ROOT}/Headers/Public/JVFloatLabeledTextField" -isystem "${PODS_ROOT}/Headers/Public/WCDB"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CLOCommon" -l"JVFloatLabeledTextField" -l"WCDB" -l"c++" -l"z" -framework "Bugly" -framework "CoreFoundation" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

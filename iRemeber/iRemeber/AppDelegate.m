@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Bugly/Bugly.h>
+#import "DBMgr.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [Bugly startWithAppId:@"35cd6cd61f"];
-    
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        kDBMgr;
+    });
     return YES;
 }
 

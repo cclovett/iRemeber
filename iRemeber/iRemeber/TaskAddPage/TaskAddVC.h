@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @class TopBarView, ButtonView;
+@class JVFloatLabeledTextField, JVFloatLabeledTextView;
 
 @interface TaskAddVC : UIViewController
 
 @property (strong, nonatomic, readonly) TopBarView *mTopBarView;
 @property (strong, nonatomic, readonly) ButtonView *mAddButton;
+@property (strong, nonatomic, readonly) JVFloatLabeledTextField *mTitleTextField;
+@property (strong, nonatomic, readonly) JVFloatLabeledTextView *mDescription;
 
 @end

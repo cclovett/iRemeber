@@ -9,13 +9,6 @@
 #import "DBTask.h"
 #import <WCDB/WCDB.h>
 
-@interface DBTask ()
-
-WCDB_PROPERTY(mUUID)
-WCDB_PROPERTY(mCreateTime)
-WCDB_PROPERTY(mModifiedTime)
-
-@end
 @implementation DBTask
 
 WCDB_IMPLEMENTATION(DBTask)

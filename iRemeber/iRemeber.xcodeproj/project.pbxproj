@@ -16,12 +16,14 @@
 		42A94BA02079B8C50063FAFE /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A94B9F2079B8C50063FAFE /* MainVC.m */; };
 		713C92CD207CFA6C001A986C /* TaskAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C92CC207CFA6C001A986C /* TaskAddVC.m */; };
 		713C92D0207D0193001A986C /* TaskAddVC+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 713C92CF207D0193001A986C /* TaskAddVC+UIView.m */; };
+		714E77932088DF4F0000E22C /* DBBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 714E77922088DF4F0000E22C /* DBBase.mm */; };
+		714E77962088EA7C0000E22C /* DBTask+WCTTableCoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 714E77952088EA7C0000E22C /* DBTask+WCTTableCoding.mm */; };
 		71C8DA4E207E48DE00FB78E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C8DA4D207E48DE00FB78E8 /* Localizable.strings */; };
 		71C8DA61207E4CF200FB78E8 /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA56207E4CF100FB78E8 /* TabBarView.m */; };
 		71C8DA63207E4CF200FB78E8 /* TabBarEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA58207E4CF100FB78E8 /* TabBarEntity.m */; };
 		71C8DA64207E4CF200FB78E8 /* TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA5A207E4CF200FB78E8 /* TopBarView.m */; };
 		71C8DA65207E4CF200FB78E8 /* TopBarView+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA5B207E4CF200FB78E8 /* TopBarView+UIView.m */; };
-		71C8DA6E207E4D0200FB78E8 /* DBMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA69207E4D0200FB78E8 /* DBMgr.m */; };
+		71C8DA6E207E4D0200FB78E8 /* DBMgr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA69207E4D0200FB78E8 /* DBMgr.mm */; };
 		71C8DA6F207E4D0200FB78E8 /* DBTask.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA6B207E4D0200FB78E8 /* DBTask.mm */; };
 		71C8DA72207E4D1C00FB78E8 /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C8DA71207E4D1C00FB78E8 /* ButtonView.m */; };
 		A3B1E1D9E4E7E65582EC6A5C /* libPods-iRemeber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0230FF2E9A6B765BA2DD8369 /* libPods-iRemeber.a */; };
@@ -47,6 +49,10 @@
 		713C92CC207CFA6C001A986C /* TaskAddVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskAddVC.m; sourceTree = "<group>"; };
 		713C92CE207D0193001A986C /* TaskAddVC+UIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaskAddVC+UIView.h"; sourceTree = "<group>"; };
 		713C92CF207D0193001A986C /* TaskAddVC+UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TaskAddVC+UIView.m"; sourceTree = "<group>"; };
+		714E77912088DF4F0000E22C /* DBBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBBase.h; sourceTree = "<group>"; };
+		714E77922088DF4F0000E22C /* DBBase.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DBBase.mm; sourceTree = "<group>"; };
+		714E77942088EA7C0000E22C /* DBTask+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DBTask+WCTTableCoding.h"; sourceTree = "<group>"; };
+		714E77952088EA7C0000E22C /* DBTask+WCTTableCoding.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "DBTask+WCTTableCoding.mm"; sourceTree = "<group>"; };
 		71C8DA4D207E48DE00FB78E8 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		71C8DA53207E4CF100FB78E8 /* TabBarEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarEntity.h; sourceTree = "<group>"; };
 		71C8DA55207E4CF100FB78E8 /* TabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarView.h; sourceTree = "<group>"; };
@@ -56,7 +62,7 @@
 		71C8DA5B207E4CF200FB78E8 /* TopBarView+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TopBarView+UIView.m"; sourceTree = "<group>"; };
 		71C8DA5F207E4CF200FB78E8 /* TopBarView+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TopBarView+UIView.h"; sourceTree = "<group>"; };
 		71C8DA60207E4CF200FB78E8 /* TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopBarView.h; sourceTree = "<group>"; };
-		71C8DA69207E4D0200FB78E8 /* DBMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMgr.m; sourceTree = "<group>"; };
+		71C8DA69207E4D0200FB78E8 /* DBMgr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBMgr.mm; sourceTree = "<group>"; };
 		71C8DA6B207E4D0200FB78E8 /* DBTask.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBTask.mm; sourceTree = "<group>"; };
 		71C8DA6C207E4D0200FB78E8 /* DBTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBTask.h; sourceTree = "<group>"; };
 		71C8DA6D207E4D0200FB78E8 /* DBMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMgr.h; sourceTree = "<group>"; };
@@ -197,9 +203,11 @@
 		71C8DA68207E4D0200FB78E8 /* DBMgr */ = {
 			isa = PBXGroup;
 			children = (
-				71C8DA69207E4D0200FB78E8 /* DBMgr.m */,
-				71C8DA6A207E4D0200FB78E8 /* ORMs */,
+				714E77912088DF4F0000E22C /* DBBase.h */,
+				714E77922088DF4F0000E22C /* DBBase.mm */,
 				71C8DA6D207E4D0200FB78E8 /* DBMgr.h */,
+				71C8DA69207E4D0200FB78E8 /* DBMgr.mm */,
+				71C8DA6A207E4D0200FB78E8 /* ORMs */,
 			);
 			path = DBMgr;
 			sourceTree = "<group>";
@@ -207,8 +215,10 @@
 		71C8DA6A207E4D0200FB78E8 /* ORMs */ = {
 			isa = PBXGroup;
 			children = (
-				71C8DA6B207E4D0200FB78E8 /* DBTask.mm */,
 				71C8DA6C207E4D0200FB78E8 /* DBTask.h */,
+				71C8DA6B207E4D0200FB78E8 /* DBTask.mm */,
+				714E77942088EA7C0000E22C /* DBTask+WCTTableCoding.h */,
+				714E77952088EA7C0000E22C /* DBTask+WCTTableCoding.mm */,
 			);
 			path = ORMs;
 			sourceTree = "<group>";
@@ -355,12 +365,14 @@
 			files = (
 				71C8DA61207E4CF200FB78E8 /* TabBarView.m in Sources */,
 				71C8DA72207E4D1C00FB78E8 /* ButtonView.m in Sources */,
+				714E77962088EA7C0000E22C /* DBTask+WCTTableCoding.mm in Sources */,
 				424B0E62207A0042002784F5 /* MainVC+UIView.m in Sources */,
 				713C92D0207D0193001A986C /* TaskAddVC+UIView.m in Sources */,
-				71C8DA6E207E4D0200FB78E8 /* DBMgr.m in Sources */,
+				71C8DA6E207E4D0200FB78E8 /* DBMgr.mm in Sources */,
 				42A94BA02079B8C50063FAFE /* MainVC.m in Sources */,
 				71C8DA63207E4CF200FB78E8 /* TabBarEntity.m in Sources */,
 				42A94B952079B2770063FAFE /* main.m in Sources */,
+				714E77932088DF4F0000E22C /* DBBase.mm in Sources */,
 				71C8DA6F207E4D0200FB78E8 /* DBTask.mm in Sources */,
 				713C92CD207CFA6C001A986C /* TaskAddVC.m in Sources */,
 				71C8DA65207E4CF200FB78E8 /* TopBarView+UIView.m in Sources */,

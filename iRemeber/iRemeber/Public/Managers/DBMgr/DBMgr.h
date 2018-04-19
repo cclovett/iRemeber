@@ -14,4 +14,5 @@
 
 + (instancetype)sInstance;
 
+
 @end

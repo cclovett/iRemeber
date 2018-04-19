@@ -16,6 +16,8 @@
 
 @property (strong, nonatomic) TopBarView *mTopBarView;
 @property (strong, nonatomic) ButtonView *mAddButton;
+@property (strong, nonatomic) JVFloatLabeledTextField *mTitleTextField;
+@property (strong, nonatomic) JVFloatLabeledTextView *mDescription;
 
 @end
 

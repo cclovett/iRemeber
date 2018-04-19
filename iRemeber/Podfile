@@ -29,5 +29,6 @@ target 'iRemeber' do
   
   pod 'Bugly'
   pod 'WCDB'
+  pod 'JVFloatLabeledTextField'
 
 end

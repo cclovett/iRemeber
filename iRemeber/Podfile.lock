@@ -3,6 +3,7 @@ PODS:
   - CLOCommon/Core (0.0.1)
   - CLOCommon/UI (0.0.1):
     - CLOCommon/Core
+  - JVFloatLabeledTextField (1.2.1)
   - WCDB (1.0.6):
     - WCDB/sqlcipher (= 1.0.6)
   - WCDB/sqlcipher (1.0.6)
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - Bugly
   - CLOCommon/Core (from `../../../ccloveobjc/CLOCommon`)
   - CLOCommon/UI (from `../../../ccloveobjc/CLOCommon`)
+  - JVFloatLabeledTextField
   - WCDB
 
 EXTERNAL SOURCES:
@@ -20,8 +22,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   CLOCommon: 76aa0aea94aa1b25cc55fbb50ec30552c03d91ba
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
   WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
 
-PODFILE CHECKSUM: c281749be12ac2acbaa2fb51edb03bb65c8cae97
+PODFILE CHECKSUM: 5523a15ad6ef822971dcc4892f3b9a4a5731327a
 
 COCOAPODS: 1.2.1

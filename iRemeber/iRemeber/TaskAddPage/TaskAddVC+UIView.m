@@ -11,12 +11,15 @@
 #import "Global.h"
 #import "TopBarView.h"
 #import "ButtonView.h"
+#import <JVFloatLabeledTextField/JVFloatLabeledTextView.h>
+#import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
 
 @implementation TaskAddVC (UIView)
 
 @dynamic mTopBarView;
 @dynamic mAddButton;
-
+@dynamic mTitleTextField;
+@dynamic mDescription;
 
 - (void)fLoadViews
 {
@@ -41,6 +44,29 @@
         self.mAddButton = btn;
         btn.layer.cornerRadius = 8;
         btn.backgroundColor = [UIColor grayColor];
+    }
+    {
+        // mTitleTextField
+        JVFloatLabeledTextField *v = [[JVFloatLabeledTextField alloc] initWithFrame:CGRectMake(20, 100, 375 - 40, 44)];
+        v.font = [UIFont systemFontOfSize:16.0f];
+        v.attributedPlaceholder = [[NSAttributedString alloc] initWithString:NSLocalizedString(@"Title", @"")
+                                                                              attributes:@{NSForegroundColorAttributeName: [UIColor darkGrayColor]}];
+        v.floatingLabelFont = [UIFont boldSystemFontOfSize:11.0f];
+        v.floatingLabelTextColor = [UIColor brownColor];
+        [self.view addSubview:v];
+        self.mTitleTextField = v;
+        [v becomeFirstResponder];
+        v.keepBaseline = YES;
+    }
+    {
+        JVFloatLabeledTextView *descriptionField = [[JVFloatLabeledTextView alloc] initWithFrame:CGRectMake(20, 200, 375 - 40, 88)];
+        descriptionField.font = [UIFont systemFontOfSize:16.0f];
+        descriptionField.placeholder = NSLocalizedString(@"Description", @"");
+        descriptionField.placeholderTextColor = [UIColor darkGrayColor];
+        descriptionField.floatingLabelFont = [UIFont boldSystemFontOfSize:11.0f];
+        descriptionField.floatingLabelTextColor = [UIColor brownColor];
+        [self.view addSubview:descriptionField];
+        self.mDescription = descriptionField;
     }
 }
 
